@@ -21,7 +21,7 @@ let ccache = stdenv.mkDerivation rec {
     owner = pname;
     repo = pname;
     rev = "v${version}";
-    sha256 = "011i1aczv4nixq4gvjixcd73df2xplcrldfv0w12yaz5iy4vaw6b";
+    sha256 = "sha256-y3C1iY/lKy8CB9s1mhm9Xbg2TmM9yv0I7tGS/ZkKMQQ=";
   };
 
   outputs = [ "out" "man" ];
