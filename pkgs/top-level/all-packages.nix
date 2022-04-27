@@ -8897,6 +8897,8 @@ with pkgs;
 
   ogdf = callPackage ../development/libraries/ogdf { };
 
+  oh-my-posh = callPackage ../tools/misc/oh-my-posh { };
+
   oh-my-zsh = callPackage ../shells/zsh/oh-my-zsh { };
 
   ola = callPackage ../applications/misc/ola { };
