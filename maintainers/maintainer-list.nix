@@ -14570,4 +14570,10 @@
       fingerprint = "41EA 00B4 00F9 6970 1CB2  D3AF EF90 E3E9 8B8F 5C0B";
     }];
   };
+  shrykewindgrace = {
+    name = "Timofey Zakrevskiy";
+    email = "shryke.windgrace@gmail.com";
+    github = "ShrykeWindgrace";
+    githubId = 6421233;
+  };
 }
