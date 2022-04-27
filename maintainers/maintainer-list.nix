@@ -14636,4 +14636,10 @@
     github = "npatsakula";
     githubId = 23001619;
   };
+  shrykewindgrace = {
+    name = "Timofey Zakrevskiy";
+    email = "shryke.windgrace@gmail.com";
+    github = "ShrykeWindgrace";
+    githubId = 6421233;
+  };
 }
