@@ -1825,8 +1825,8 @@ let
         mktplcRef = {
           name = "indent-rainbow";
           publisher = "oderwat";
-          version = "8.2.2";
-          sha256 = "sha256-7kkJc+hhYaSKUbK4eYwOnLvae80sIg7rd0E4YyCXtPc=";
+          version = "8.3.1";
+          sha256 = "sha256-dOicya0B2sriTcDSdCyhtp0Mcx5b6TUaFKVb0YU3jUc=";
         };
         meta = with lib; {
           description = "Makes indentation easier to read";
