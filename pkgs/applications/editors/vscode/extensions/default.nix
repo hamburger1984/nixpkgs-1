@@ -596,6 +596,18 @@ let
         };
       };
 
+      csharpier.csharpier-vscode = buildVscodeMarketplaceExtension {
+        mktplcRef = {
+          publisher = "csharpier";
+          name = "csharpier-vscode";
+          version = "1.2.3";
+          sha256 = "sha256-IbSDDw+DFZZeWIrf2+YVjybEeVFeahQK0e1xziwbq78=";
+        };
+        meta = {
+          license = lib.licenses.mit;
+        };
+      };
+
       cweijan.vscode-database-client2 = buildVscodeMarketplaceExtension {
         mktplcRef = {
           name = "vscode-database-client2";
