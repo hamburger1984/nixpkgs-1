@@ -2481,6 +2481,18 @@ let
         };
       };
 
+      vizzuhq.code-viz-stat = buildVscodeMarketplaceExtension {
+        mktplcRef = {
+          name = "code-viz-stat";
+          publisher = "vizzuhq";
+          version = "0.1.3";
+          sha256 = "1iwsw8ynfz8gk3pk8cxsj3r92gxf8raw6brvmvgsg12bq8qq6xr8";
+        };
+        meta = {
+          license = lib.licenses.mit;
+        };
+      };
+
       ms-vsliveshare.vsliveshare = callPackage ./ms-vsliveshare-vsliveshare { };
 
       vscodevim.vim = buildVscodeMarketplaceExtension {
