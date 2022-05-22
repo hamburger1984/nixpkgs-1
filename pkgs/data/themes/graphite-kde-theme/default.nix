@@ -5,13 +5,13 @@
 
 stdenv.mkDerivation rec {
   pname = "graphite-kde-theme";
-  version = "2022-02-08";
+  version = "2022-05-20";
 
   src = fetchFromGitHub {
     owner = "vinceliuice";
     repo = pname;
-    rev = version;
-    sha256 = "0pnn5s1vfdgkpsy5sc838731ly1imi8pbyd4asibw4zi238l0nvf";
+    rev = "b971f7b6ffe47c31562ba594b1afcaa78ab41abd";
+    sha256 = "sha256-bro/Vyny/7oPiR57QJVBnWTxTpwmsi5mCA8i9eReBvg=";
   };
 
   installPhase = ''
