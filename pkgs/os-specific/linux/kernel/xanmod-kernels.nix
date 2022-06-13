@@ -8,9 +8,9 @@ let
   };
 
   edgeVariant = {
-    version = "5.18.1";
+    version = "5.18.8";
     suffix = "xanmod1";
-    hash = "sha256-dqvB4F2S7cklSJ7XTUNvWVKTsZGLevOXME5lvhmfyis=";
+    hash = "sha256-MivHzMb8MeR47ruhlU0sQ46zYtzgCjbhx13VgomFeWc=";
   };
 
   xanmodKernelFor = { version, suffix, hash }: buildLinux (args // rec {
